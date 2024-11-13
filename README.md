@@ -8,6 +8,9 @@
     │   ├── retrieval.py  
     │   └── README.md  
     │── requirements.txt  
+    │── insurance.json  
+    │── finance.json  
+    │── problematic_pdfs.json  
     │── README.md  
 
 # File Description
