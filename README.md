@@ -36,5 +36,5 @@
 # Google Colab
 You can also run the model on the colab.  
 https://drive.google.com/file/d/1dKg6J5sti1mZQWVl0p6mbBrhmdW_fVZS/view?usp=drive_link  
-For running the code on the colab, all the files you need can be found here.  
+For running the code on the colab, all the files including the raw files and the preprocessed json files you need can be found here.  
 https://drive.google.com/drive/folders/1ldJFFT3itTTQI7BkrjkGFdvocAR-92qm?usp=drive_link  
