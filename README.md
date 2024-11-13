@@ -11,9 +11,9 @@
 │── README.md  
 
 # File Description
-* `data_preprocess.py`: 讀取insurance和finance參考資料，整理成字串，並輸出成json檔，以便重複使用。
-* `OCR.py`: 讀取finance中需要透過OCR讀取圖像文字的參考資料，整理成字串，並輸出成json檔，以便重複使用。
-* `retrieval.py`: 使用reranker模型，透過比對問題和文件的相似度，決定最終問題的答案。
+* `data_preprocess.py`: 讀取insurance和finance參考資料，整理成字串，並輸出`insurance.json`和`finance.json`，以便重複使用。
+* `OCR.py`: 讀取finance中需要透過OCR讀取圖像文字的參考資料，整理成字串，並輸出成`problematic_pdfs.json`，以便重複使用。
+* `retrieval.py`: 讀取`data_preprocess.py`和`OCR.py`輸出的json檔，使用reranker模型，透過比對問題和文件的相似度，決定最終問題的答案。
 
 # Google Colab
 You can also run the model on the colab.  
