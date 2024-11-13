@@ -1,4 +1,5 @@
 # Directory Structure
+    ```
 .  
 │── Preprocess  
 │     ├── data_preprocess.py  
@@ -9,6 +10,7 @@
 │     └── README.md  
 │── requirements.txt  
 │── README.md  
+    ```
 
 # File Description
 * `data_preprocess.py`: 讀取insurance和finance參考資料，整理成字串，並輸出`insurance.json`和`finance.json`，以便重複使用。
