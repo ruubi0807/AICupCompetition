@@ -56,7 +56,7 @@ if __name__ == '__main__':
             retrieved_doc = None # 儲存與query相似度最大的文件編號
     
             for idx, doc in zip(q_dict['source'], corpus_dict): # 遍歷所有的候選文件
-                doc_segments = [doc[i:i + max_length] for i in range(0, len(doc), max_length)] 將文件依照tokenizer的最大長度分割成好幾個段落
+                doc_segments = [doc[i:i + max_length] for i in range(0, len(doc), max_length)] # 將文件依照tokenizer的最大長度分割成好幾個段落
     
                 for segment in doc_segments:
                     pairs = [[query, segment]]
