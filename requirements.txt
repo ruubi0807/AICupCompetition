@@ -1,9 +1,9 @@
-Python3.9
+python==3.9
 pdfplumber
 tqdm
 tabula
 fitz
 pytesseract
-Flax==0.4.1
+flax==0.4.1
 pytorch-cuda==11.7
 transformers
