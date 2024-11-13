@@ -11,11 +11,12 @@ def load_data(source_path, category):
   corpus_dict = {int(file.replace('.pdf', '')): read_pdf(os.path.join(source_path, file), category) for file in tqdm(masked_file_ls)}  # 讀取每個PDF文件的文本，並以檔案名作為鍵，文本內容作為值存入字典
   return corpus_dict
 
+# 將使用tabula得到的表格，以[column name] [row name] [table value]的格式轉換成字串
 def table_to_string(page):
   table_str = ''
   page = page.values
-  for i in range(1, len(page)):
-    for j in range(1, len(page[0])):
+  for i in range(1, len(page)): # 迴圈遍歷表格每一列
+    for j in range(1, len(page[0])): # 迴圈遍歷表格每一欄
       table_str += f'{page[0][j]} {page[i][0]} {page[i][j]} '
   return table_str
 
