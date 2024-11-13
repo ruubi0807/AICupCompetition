@@ -8,7 +8,7 @@
 │     ├── retrieval.py  
 │     └── README.md  
 │── requirements.txt  
-|── README.md  
+│── README.md  
 
 # File Description
 * `data_preprocess.py`: 讀取insurance和finance參考資料，整理成字串，並輸出成json檔，以便重複使用。
